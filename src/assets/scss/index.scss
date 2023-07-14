@@ -1,0 +1,79 @@
+.service_button {
+    appearance: none;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(#fff, 0.0675) 0%, rgba(#fff, 0.25) 50%, rgba(#fff, 0.25) 100%);
+    background-position: 0 -1px;
+    background-size: 100% 200%;
+    border-image-outset: 5px;
+    border-image-slice: 12;
+    border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkBAMAAAATLoWrAAAAD1BMVEX///9HcEz///////////9iTY1sAAAABXRSTlP/AFcwLxVr8qIAAAAtSURBVHgBY4AAQTCAcpiMQQAiBGYqMLAIogGHoSQkiAGGndAQjyHMJIclYQIAUPguwUoMKZkAAAAASUVORK5CYII=");
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 1em 4em;
+    margin-top: 1em;
+    position:relative;
+    // position: absolute;
+    text-transform: uppercase;
+    transition: background-position 0.25s ease;
+    background: transparent;
+    border: 2px solid #c1bfac;
+    color: #fff;
+    box-shadow: 4px 4px 10px 0px rgba(193, 191, 172, 0.5);
+    margin-left: 1.3em;
+    
+
+    &:hover,
+    &:focus {
+      background-position: 0 calc(100% + 1px);
+      outline: none;
+    }
+  
+    &:focus-visible {
+      outline: 1px dotted #fff;
+      outline-offset: 4px;
+    }
+  }
+  .service_feature_button{
+    appearance: none;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(#fff, 0.0675) 0%, rgba(#fff, 0.25) 50%, rgba(#fff, 0.25) 100%);
+    background-position: 0 -1px;
+    background-size: 100% 200%;
+    border-image-outset: 5px;
+    border-image-slice: 12;
+    border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkBAMAAAATLoWrAAAAD1BMVEX///9HcEz///////////9iTY1sAAAABXRSTlP/AFcwLxVr8qIAAAAtSURBVHgBY4AAQTCAcpiMQQAiBGYqMLAIogGHoSQkiAGGndAQjyHMJIclYQIAUPguwUoMKZkAAAAASUVORK5CYII=");
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 1em 4em;
+    margin-top: 1em;
+    position: absolute;
+    text-transform: uppercase;
+    transition: background-position 0.25s ease;
+    background: transparent;
+    border: 2px solid #c1bfac;
+    color: #fff;
+    box-shadow: 4px 4px 10px 0px rgba(193, 191, 172, 0.5);
+    margin-left: 1.3em;
+    
+
+    &:hover,
+    &:focus {
+      background-position: 0 calc(100% + 1px);
+      outline: none;
+    }
+  
+    &:focus-visible {
+      outline: 1px dotted #fff;
+      outline-offset: 4px;
+    }
+  }
