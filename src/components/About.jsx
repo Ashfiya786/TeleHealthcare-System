@@ -52,19 +52,19 @@ const About = () => {
         With the software's appointment management feature, doctors can schedule appointments ,send reminder to patients,and keep track of their availability.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 about-cards-exterior flex flex-wrap gap-10'>
         {services.map((service, index) => (
           // <ServiceCard key={service.title} index={index} {...service} />
   //         <a key={service.title + index} href={`${service.url}`}>
   //   <ServiceCard index={index} {...service} />
   // </a>
-  <div key={service.title + index}>
+  <div className='about-cards' key={service.title + index}>
     <a href={`${service.url}`}>
       <ServiceCard index={index} {...service} />
     </a>
-    <a className='service_feature_button' href={`${service.url}`}>
+    {/* <a className='service_feature_button' href={`${service.url}`}>
     <button >click me</button>
-    </a>
+    </a> */}
   </div>
         ))}
         {/* <button className='service_button'>Save airship</button>
